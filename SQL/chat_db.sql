@@ -1,13 +1,13 @@
 # ************************************************************
 # Sequel Pro SQL dump
-# Versión 4541
+# VersiÃ³n 4541
 #
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
 # Host: 127.0.0.1 (MySQL 5.5.5-10.1.37-MariaDB)
 # Base de datos: chat
-# Tiempo de Generación: 2019-03-06 20:39:12 +0000
+# Tiempo de GeneraciÃ³n: 2019-03-06 20:39:12 +0000
 #
 # DESARROLLADO POR XCHEKO51X
 #
@@ -42,3 +42,5 @@ CREATE TABLE `usuarios` (
 
 
 INSERT INTO `usuarios` (`usuario`, `contrasena`, `nombre`) VALUES ('TODOS','TODOS','TODOS');
+INSERT INTO `usuarios` (`usuario`, `contrasena`, `nombre`) VALUES ('usuario1','1234','Usuario Uno');
+INSERT INTO `usuarios` (`usuario`, `contrasena`, `nombre`) VALUES ('usuario2','4321','Usuario Dos');
